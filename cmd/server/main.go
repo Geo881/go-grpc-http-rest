@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/geo881/go-grpc-http-rest/pkg/cmd"
+	"github.com/Geo881/go-grpc-http-rest/pkg/cmd"
 )
 
 func main() {
