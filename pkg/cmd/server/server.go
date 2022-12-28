@@ -10,7 +10,7 @@ import (
 	v1 "github.com/Geo881/go-grpc-http-rest/pkg/service/v1"
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/amsokol/go-grpc-http-rest-microservice-tutorial/pkg/protocol/grpc"
+	"github.com/Geo881/go-grpc-http-rest/pkg/protocol/grpc"
 )
 
 // Config is configuration for Server
