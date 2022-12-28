@@ -17,8 +17,11 @@ const (
 	apiVersion = "v1"
 )
 
+type UnimplementedtoDoServiceServer struct{}
+
 // toDoServiceServer is implementation of v1.ToDoServiceServer proto interface
 type toDoServiceServer struct {
+	v1.UnimplementedToDoServiceServer
 	db *sql.DB
 }
 
